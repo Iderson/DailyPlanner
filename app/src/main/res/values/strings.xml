@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Daily Planner</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_task">Task!</string>
+    <string name="hint_comment">Your comment...</string>
+    <string name="hint_task_name">task name</string>
+    <string name="label_add_task">Add task</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_dismiss">dismiss</string>
+    <string name="label_snooze_hours">snooze hours</string>
+    <string name="drawer_item_home">Home</string>
+
+    <string name="drawer_item_all">All</string>
+    <string name="drawer_item_sunday">Sunday</string>
+    <string name="drawer_item_monday">Monday</string>
+    <string name="drawer_item_tuesday">Tuesday</string>
+    <string name="drawer_item_wednesday">Wednesday</string>
+    <string name="drawer_item_thursday">Thursday</string>
+    <string name="drawer_item_friday">Friday</string>
+    <string name="drawer_item_saturday">Saturday</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="label_snooze_mins">Snooze mins</string>
+    <string name="zero">0</string>
+    <string name="label_add">Add</string>
+    <string name="label_shift">Shift</string>
+    <string name="label_remove">Remove</string>
+
+    <string-array name="days_array">
+        <item>@string/drawer_item_all</item>
+        <item>@string/drawer_item_sunday</item>
+        <item>@string/drawer_item_monday</item>
+        <item>@string/drawer_item_tuesday</item>
+        <item>@string/drawer_item_wednesday</item>
+        <item>@string/drawer_item_thursday</item>
+        <item>@string/drawer_item_friday</item>
+        <item>@string/drawer_item_saturday</item>
+    </string-array>
+</resources>

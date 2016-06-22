@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin">
+    <EditText
+        android:id="@+id/etTaskName_DF"
+        android:hint="@string/hint_task_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etComment_DF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_comment"
+        android:inputType="text"
+        android:imeOptions="actionDone" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_gravity="center_horizontal">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:layout_centerHorizontal="true">
+            <ToggleButton
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tgSu_FD"
+                android:background="@drawable/selector_toggle"
+                android:textOn="Su"
+                android:textOff="Su" />
+            <ToggleButton
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tgMn_FD"
+                android:background="@drawable/selector_toggle"
+                android:textOn="Mn"
+                android:textOff="Mn" />
+            <ToggleButton
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tgTu_FD"
+                android:background="@drawable/selector_toggle"
+                android:textOn="Tu"
+                android:textOff="Tu" />
+            <ToggleButton
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tgWd_FD"
+                android:background="@drawable/selector_toggle"
+                android:textOn="Wd"
+                android:textOff="Wd" />
+            <ToggleButton
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tgTh_FD"
+                android:background="@drawable/selector_toggle"
+                android:textOn="Th"
+                android:textOff="Th" />
+            <ToggleButton
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tgFr_FD"
+                android:background="@drawable/selector_toggle"
+                android:textOn="Fr"
+                android:textOff="Fr" />
+            <ToggleButton
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tgSt_FD"
+                android:background="@drawable/selector_toggle"
+                android:textOn="St"
+                android:textOff="St" />
+        </LinearLayout>
+        <Button android:id="@+id/btnTime_FD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout" />
+
+        <Button
+            android:id="@+id/btnOk_FD"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_add_task"
+            android:layout_below="@id/btnTime_FD"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+        <Button android:id="@+id/btnCancel_FD"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_cancel"
+                android:layout_alignBottom="@+id/btnOk_FD"
+                android:layout_toLeftOf="@+id/btnOk_FD"
+                android:layout_toStartOf="@+id/btnOk_FD"/>
+    </RelativeLayout>
+</LinearLayout>
